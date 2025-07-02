@@ -1,0 +1,86 @@
+index.html
+index.html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendação de Filme: Rapunzel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffcc00;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .recommendation {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            width: 80%;
+            margin: 20px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .recommendation img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        h2 {
+            color: #ff6600;
+        }
+        .description {
+            font-size: 1.1em;
+            margin: 15px 0;
+        }
+        .button {
+            background-color: #ff6600;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #e65c00;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Recomendação de Filme: Rapunzel</h1>
+</header>
+
+<section>
+    <div class="recommendation">
+        <h2>Rapunzel - O Filme</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Tangled_Poster.jpg" alt="Rapunzel - Enrolados">
+        <p class="description">
+            Rapunzel é uma princesa com longos cabelos mágicos e uma história cheia de aventuras! Ela é
+            mantida em cativeiro pela malvada Gothel, mas sonha em conhecer o mundo. Quando um bandido
+            chamado Flynn Ryder invade sua torre, as coisas começam a mudar. A história é repleta de
+            ação, comédia e muita emoção!
+        </p>
+        <a href="https://www.disneyplus.com" target="_blank" class="button">Assista no Disney+</a>
+    </div>
+</section>
+
+</body>
+</html>
